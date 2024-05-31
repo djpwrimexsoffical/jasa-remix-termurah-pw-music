@@ -1,7 +1,7 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background: linear-gradient(to right, #031621, #280d2d); /* Purple gradient */
+    background: linear-gradient(to right, #011018, #011018); /* Purple gradient */
     color: #ffffff;
     animation: fadeIn 2s forwards, scrollUp 2s forwards;
 }
@@ -25,9 +25,9 @@ body {
 }
 
 .header {
-    background: linear-gradient(to right, #0c2435, #32103b); /* Darker purple gradient */
+    background: linear-gradient(to right, #011018, #011018); /* Darker purple gradient */
     padding: 20px 0;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.463);
 }
 
 .container {
@@ -410,3 +410,30 @@ tbody td {
     margin-bottom: 10px;
 }
 
+.search-container {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.search-container input {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 80%;
+}
+
+.search-container button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #8b4513;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.search-container button:hover {
+    background-color: #5a2a0a;
+}
